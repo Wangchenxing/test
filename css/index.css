@@ -108,3 +108,44 @@ body {
 	top: 8px;
 	left: 21px;
 }
+
+// .main .banner {
+// 	width: auto;
+// }
+
+.banner .row div {
+	height: 80px;
+	font-size: 15px;
+	background-clip:content-box;
+}
+.banner .survey >  div:nth-child(1) {
+	background-color: #FC8675;
+}
+.banner .survey >  div:nth-child(2) {
+	background-color: #5AB6DF;
+}
+.banner .survey >  div:nth-child(3) {
+	background-color: #65CEA7;
+}
+.banner .survey >  div:nth-child(4) {
+	background-color: #EBC85E;
+}
+
+.banner .row .cell {
+	padding: 15px;
+	color: #fff;
+}
+
+.banner .row .cell span {
+	font-size: 13px;
+	margin-left: 20px;
+}
+.banner .row .cell h5 {
+	display: block;
+	line-height: 1.8;
+    	margin: 0 0 0 70px;
+}
+.banner .row  i {
+	font-size: 50px;
+	float: left;
+}
