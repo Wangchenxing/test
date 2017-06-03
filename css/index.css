@@ -1,0 +1,110 @@
+body {
+	background-color: #f4f6f8;
+}
+
+.aside {
+	width: 180px;
+	position: fixed;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #2f4050;
+	z-index: 99;
+}
+
+.profile {
+	padding-top: 25px;
+	height: 160px;
+	text-align: center;
+	color: #fff;
+	background-color: #243443;
+}
+
+.profile h4 {
+	font-size: 16px;
+	margin: 10px 0;
+}
+.profile .head {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border:2px solid rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile .head img {
+	width: 100%;
+}
+
+
+.aside .nav {
+	height: 302px;
+	padding: 20px 0;
+}
+
+.aside .nav ul {
+	height: 100%;
+	background-color: #2F4050;
+}
+.aside .nav a {
+	width: 100%;
+	display: inline-block;
+	line-height: 1;
+	padding: 10px 20px;
+	color: #a9b0c2;
+	margin: 4px 0;
+	text-align: left;
+	font-size: 14px;
+}
+
+.aside .nav a:hover,.nav a:link {
+	text-decoration: none;
+}
+
+.aside .active {
+	background-color: #243443;
+	color: #fff;
+}
+
+.aside .small {
+	font-size: 12px;
+	margin-left: 42px;
+}
+
+.aside .nav a i {
+	margin-right: 8px;
+	width: 13px;
+}
+
+.main {
+	min-width: 844px;
+	padding: 72px 0 30px 180px;
+}
+
+.header {
+	width: 100%;
+	height: 72px;
+	padding-left: 180px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 98;
+}
+
+.header .navbar-custom {
+	height: 52px;
+	padding-right: 15px;
+	border-bottom: 1px solid #EEE;
+	background-color: #fff;
+}
+
+.header .nav .badge {
+	padding: 2px 4px;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 8px;
+	left: 21px;
+}
