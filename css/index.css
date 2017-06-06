@@ -109,9 +109,10 @@ body {
 	left: 21px;
 }
 
-// .main .banner {
-// 	width: auto;
-// }
+.main  {
+	padding: 72px 15px 0;
+	margin-left: 180px;
+}
 
 .banner .row div {
 	height: 80px;
@@ -148,4 +149,14 @@ body {
 .banner .row  i {
 	font-size: 50px;
 	float: left;
+}
+
+/*===========userlist==============*/ 
+
+.banner .breadcrumb {
+	background-color: #fff;
+}
+
+.banner .panel-default {
+	margin: 20px 0 0 0;
 }
